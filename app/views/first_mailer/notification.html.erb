@@ -1,0 +1,42 @@
+<span>hello there!!!!!!</span>
+<%=image_tag attachments['22.jpg'].url, size: "150x140", alt: "kitthe?"%>
+<style>
+  img {
+      padding:10px;
+      border:2px dotted blue;
+      margin-left: 50px;
+  }
+        img:hover{
+            opacity: .4;
+        }
+span {
+    font-size: 150%;
+    font-family: tahoma, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+    text-shadow: 3px 3px 5px #ba8b00;
+    -webkit-animation: myfirst 1s 98765432;
+    -moz-animation: myfirst 1s 98765432;
+    animation: myfirst 1s 98765432;
+}
+  @-webkit-keyframes myfirst
+  {
+      from {text-shadow: 3px 3px 5px #ba8b00;}
+      to {text-shadow : none;}
+  }
+
+  @-moz-keyframes myfirst
+  {
+      from {text-shadow: 3px 3px 5px #ba8b00;}
+      to {text-shadow : none;}
+  }
+  @keyframes myfirst
+  {
+      from {text-shadow: 3px 3px 5px #ba8b00;}
+      to {text-shadow : none;}
+  }
+
+
+</style>
+

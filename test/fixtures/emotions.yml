@@ -1,0 +1,19 @@
+# == Schema Information
+#
+# Table name: emotions
+#
+#  id               :integer          not null, primary key
+#  emotionable_id   :integer
+#  emotionable_type :string
+#  created_at       :datetime         not null
+#  updated_at       :datetime         not null
+#  emotion          :string
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  emotionable_id: 
+
+two:
+  emotionable_id: 
